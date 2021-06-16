@@ -9,15 +9,11 @@ services:
 #   - docker run -e CI=true alexlee27/react-test npm test
 
 script:
-  - docker build -t alexlee27/multi-client ./client
-  - docker build -t alexlee27/multi-nginx ./nginx
-  - docker build -t alexlee27/multi-server ./server
-  - docker build -t alexlee27/multi-worker ./worker
+  - docker build -t alexlee27/fm8landingpage .
+  - docker build -t alexlee27/test-prometheus ./prometheus
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker push alexlee27/multi-client
-  - docker push alexlee27/multi-nginx
-  - docker push alexlee27/multi-server
-  - docker push alexlee27/multi-worker
+  - docker push alexlee27/fm8landingpage
+  - docker push alexlee27/test-prometheus
 
 deploy:
   provider: elasticbeanstalk
