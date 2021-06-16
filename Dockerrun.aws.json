@@ -4,24 +4,26 @@
     {
       "name": "landingpage",
       "image": "alexlee27/fm8landingpage",
-      "hostName": "client",
+      "hostname": "client",
       "essential": true,
       "portMappings": [
         {
           "hostPort": 80,
-          "containerPort": 3005
-        }]
+          "containerPort": 80
+        }
+      ]
     },
     {
       "name": "prometheus",
       "image": "alexlee27/test-prometheus",
-      "hostName": "prometheus",
+      "hostname": "prometheus",
       "essential": false,
       "portMappings": [
         {
           "hostPort": 9090,
           "containerPort": 9090
-        }]
+        }
+      ]
     }
   ]
 }
