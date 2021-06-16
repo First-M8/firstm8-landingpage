@@ -24,7 +24,8 @@
           "hostPort": 9090,
           "containerPort": 9090
         }
-      ]
+      ],
+      "memory": 128
     }
   ]
 }
