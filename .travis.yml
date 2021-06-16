@@ -10,7 +10,7 @@ services:
 
 script:
   - docker build -t alexlee27/fm8landingpage .
-  - docker build -t alexlee27/test-prometheus ./worker
+  - docker build -t alexlee27/test-prometheus ./prometheus
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push alexlee27/fm8landingpage
   - docker push alexlee27/test-prometheus
