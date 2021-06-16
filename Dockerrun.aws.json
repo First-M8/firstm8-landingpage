@@ -9,7 +9,7 @@
       "portMappings": [
         {
           "hostPort": 80,
-          "containerPort": 3005
+          "containerPort": 80
         }]
     },
     {
