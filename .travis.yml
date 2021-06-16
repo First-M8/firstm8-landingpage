@@ -1,4 +1,4 @@
-sude: required
+sudo: required
 services:
   - docker
 
@@ -21,6 +21,12 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-2"
-  app: "docker"
-  env: ""
+  region: 'us-east-2'
+  app: 'first-m8-landingpage'
+  env: 'firstm8landingpage-prod'
+  bucket_name: 'elasticbeanstalk-us-east-2-205441520836'
+  bucket_path: 'first-m8-landingpage'
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
