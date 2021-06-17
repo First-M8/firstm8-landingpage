@@ -19,7 +19,7 @@ const Team = () => {
                   <a href='https://github.com/jungholee27'>GitHub</a>
                 </div>
                 <div className="profileCards">
-                  <img id="derekpropic" src='../logo/derekpic.jpg'></img>
+                  <img id="derekpropic" src='../logo/derek.jpg'></img>
                   <h3>Derek Chen</h3>
                   <p className='desc'>Coffee Enthusiast and Keyboard Builder.</p>
                   <a href='https://www.linkedin.com/in/derek-junhao-chen/'>LinkedIn</a>
