@@ -17,5 +17,5 @@ scrape_configs:
     scrape_interval: 5s
 
     static_configs:
-      - targets: ['localhost:80','docker.for.mac.host.internal:80', 'docker.for.win.localhost:80', '127.0.0.1:80', ' 3.143.250.240:80']
+      - targets: ['localhost:80','docker.for.mac.host.internal:80', 'docker.for.win.localhost:80', '127.0.0.1:80', '3.143.250.240:80']
      
