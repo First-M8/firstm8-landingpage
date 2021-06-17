@@ -7,7 +7,7 @@ const Home = () => {
     //tba
     //render SVG of our logo on the home page TODO when finalized
   return (
-    <div classname="logoimg">
+    <div className="logoimg">
       <img src={FirstM8Logo}  width="100%" />
       <h1 id='description'>An easier way to do your PromQL queries</h1>
     <div className="banner"> 

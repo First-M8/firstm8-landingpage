@@ -21,6 +21,7 @@ app.use(express.json());
 
 
 app.use('/build', express.static(path.join(__dirname, '../build')));
+app.use('/', express.static(path.resolve(__dirname, '../client')));
 app.use('/', express.static(path.resolve(__dirname, '../client/src')));
 
 app.get('/', (req, res) => {
