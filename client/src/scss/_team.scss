@@ -1,27 +1,64 @@
+.aboutdiv {
+  background-color: rgb(8, 40, 80);
+  width: auto;
+}
+
+#myh2{
+  margin: 0px 0px;
+  padding: 0px;
+  width: 100%;
+}
+
 .teamContainer {
   display: flex;
-  flex-direction: column;
+  color: rgb(177, 177, 169);
+  flex-direction: column;  
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 80vh;
-  padding: 20rem auto;
+  // justify-content: space-evenly;
+  height: 75vh;
+}
+#alexpropic{
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+#derekpropic{
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+#nisapropic{
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+#kevinpropic{
+  margin: 10px;
+  height: 200px;
+  width: 200px;
 }
 
 .teamContainerHeader {
   text-align: center;
   justify-content: space-evenly;
-  width: 100%;
+  margin: 15px;
 }
 
 .profileHolder {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
 }
 
 .profileCards {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5px;
+}
+
+.desc{
+  padding: 10px;
+  font-size: 75%;
 }
